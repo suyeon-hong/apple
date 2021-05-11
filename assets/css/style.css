@@ -1,0 +1,80 @@
+/* container */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+/* row */
+.row {
+  margin: 0 20px;
+  position: relative;
+}
+/* header */
+#header .header-data {
+  display: block;
+  padding-top: 30px;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 600;
+}
+#header .header-title {
+  font-size: 32px;
+  font-weight: 600;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  margin-left: -2px;
+}
+#header .header-id {
+  position: absolute;
+  right: 0;
+  bottom: 14px;
+  background: linear-gradient(
+      149.16deg,
+      #a4a9b5 10.18%,
+      rgba(164, 169, 181, 0) 81.31%
+    ),
+    #c4c4c4;
+  text-transform: uppercase;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* bestM */
+.bestM {
+}
+.bestM .best {
+}
+.bestM .best .best-title {
+}
+.bestM .best .best-title .bt-stit {
+  color: #da5e7c;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.67;
+}
+.bestM .best .best-title .bt-tit {
+  font-size: 22px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.bestM .best .best-title .bt-desc {
+  font-size: 22px;
+  color: #818181;
+  font-weight: 300;
+  margin-bottom: 13px;
+}
+
+/* mediaquery */
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
