@@ -67,11 +67,11 @@
 }
 
 /* swiper */
-.swiper-container {
+.bestM .swiper-container {
   width: 100%;
   height: 100%;
 }
-.swiper-slide img {
+.bestM .swiper-slide img {
   display: block;
   width: 95%;
   height: 100%;
